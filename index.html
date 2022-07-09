@@ -1,18 +1,15 @@
-<!DOCTYPE html>
-
 <html>
-
   <head>
-    <title>hCaptcha 5 test website</title>
-    <meta charset="utf-8">
+    <title>hCaptcha Demo</title>
     <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
-    <link type="text/css" rel="stylesheet" href="styles.css">
   </head>
-
   <body>
-    <h1>hCaptcha test.</h1>
-    <h2>Simple website to try to solve <a href="https://hCaptcha.com/?r=1ac28065436b" target="_blank">hCaptcha</a>.</h2>
-    <div class="h-captcha" data-sitekey="4c672d35-0701-42b2-88c3-78380b0db560" data-theme="dark"></div>
+    <form action="" method="POST">
+      <input type="text" name="email" placeholder="Email" />
+      <input type="password" name="password" placeholder="Password" />
+      <div class="h-captcha" data-sitekey="4c672d35-0701-42b2-88c3-78380b0db560"></div>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
-
 </html>
